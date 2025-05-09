@@ -1161,6 +1161,16 @@ video {
   background-color: #0092e6;
 }
 
+/* Swiper Slider Image Resize CSS */
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
