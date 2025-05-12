@@ -79,6 +79,41 @@
             </div>
             
         </div>
+
+        <div class="container px-5 py-24 mx-auto flex flex-wrap border-t-2 border-secondary-600" >
+            <div class="flex flex-col text-center w-full mb-20">
+                <h2
+                    class="sm:text-4xl text-2xl font-medium title-font underline decoration-primary-500 decoration-4 underline-offset-8 text-slate-200">
+                    Components</h2>
+            </div>
+            <div style="margin-bottom: 20px;"
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" data-aos="fade-up" data-aos-delay="500">
+                <h2 class="title-font sm:text-3xl text-xl mb-4 font-bold text-white">Hardware</h2>
+                <p class="mb-8 leading-relaxed text-slate-200">Featuring a steel/aluminum frame capable of hold a 160W solar panel, and ball-bearing axis for tilt and rotation, movement is assisted by servo motors and 
+                    3D-printed gears. Additionally, a daylight and infrared presence sensor allows the detection of shadows or obstructions on the solar panel. Servo motors and sensors are controlled by a Raspberry Pi.
+                    A scalable architecture model integrating sensors and servo motors, capable of managing up to 32 devices per processing unit.</p>
+            </div>
+            <div style="margin-bottom: 20px;"
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" data-aos="fade-up" data-aos-delay="500">
+                <h2 class="title-font sm:text-3xl text-xl mb-4 font-bold text-white">Software</h2>
+                <p class="mb-8 leading-relaxed text-slate-200">Client-server infrastructure design for a web-based application featuring API integration with OpenAI for area estimation using satellite imagery (Google Maps) 
+                    and weather/sun data based on geolocation (OpenWeatherMap, AstroPy). Budget estimation based on location, area, and annual energy consumption analysis. Active monitoring of intelligent solar tracker arrays
+                     with real-time status notifications and alerts. A historical energy absorption dashboard provides detailed reporting and insights.</p>
+            </div>
+            <div style="margin-bottom: 20px;" 
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" 
+                data-aos="fade-up" data-aos-delay="500">
+                <h2 class="title-font sm:text-3xl text-xl mb-4 font-bold text-white">IoT Deployment</h2>
+                <p class="mb-8 leading-relaxed text-slate-200">
+                    Implementing a robust client-server infrastructure with Git version control. 
+                    The front-end is built using React and TypeScript, while the back-end leverages Python for seamless functionality. 
+                    Cloud services are deployed via Microsoft Azure, with CI/CD pipelines ensuring automated workflows. 
+                    Raspberry Pi 4 is used for device management, integrating a MongoDB database to store historical energy data and user installation records.
+                </p>
+            </div>
+        </div>
+
+
         <script src="swiper-init.js"></script>
         
         <div class="swiper mySwiper">
@@ -99,7 +134,14 @@
                 <div class="swiper-slide">
                     <img src="./client/asset/solaria/solaria-solartracker.jpg" alt="Tracker Axis">
                 </div>
-                
+                <!-- Slide 5 -->
+                <div class="swiper-slide">
+                    <img src="./client/asset/solaria/solaria-prototype-tilt-solartracker.png" alt="Tracker Tilt">
+                </div>
+                <!-- Slide 5 -->
+                <div class="swiper-slide">
+                    <img src="./client/asset/solaria/solaria-prototype-rotation-solartracker.png" alt="Tracker Rotation">
+                </div>
             </div>
             <div class="swiper-pagination"></div>
         </div>

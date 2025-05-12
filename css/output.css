@@ -685,6 +685,8 @@ video {
 
 .flex {
   display: flex;
+  min-width: 72px;
+
 }
 
 .inline-flex {
@@ -777,6 +779,7 @@ video {
 
 .flex-wrap {
   flex-wrap: wrap;
+  min-width: 120px;
 }
 
 .items-start {
